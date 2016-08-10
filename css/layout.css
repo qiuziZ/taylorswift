@@ -1,0 +1,125 @@
+section, header, article, nav {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 1em 10%;
+    /*background-image: url(../images/1.png);*/
+    /*background-attachment: fixed;*/
+    /*background-position: top left;*/
+    /*background-repeat: repeat-x;*/
+    max-width: 80em;
+}
+
+header {
+    /*background-image: url();*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: bottom right;*/
+    border: .1em solid;
+    /*border-style: solid;*/
+    /*border-bottom-width: 0;*/
+}
+
+header img {
+    width: 100%;
+}
+
+header nav {
+    /*background-image: url();*/
+    /*background-position: bottom left;*/
+    /*background-repeat: repeat-x;*/
+    border: .1em solid;
+    padding-left: 10%;
+}
+
+header nav ul {
+    width: 100%;
+    overflow: hidden;
+    border-left: .1em solid;
+}
+
+header nav li {
+    display: inline;
+}
+
+header nav li a {
+    display: block;
+    float: left;
+    padding: .5em 2em;
+    border-right: .1em solid;
+}
+
+article {
+    border: .1em solid;
+    border-top: 0;
+    padding: 2em 10%;
+    line-height: 1.8em;
+}
+
+article img {
+    border: .1em solid;
+    outline: .1em solid;
+}
+
+/*#home header{*/
+/*background-image: url("../images/1.png");*/
+/*}*/
+/*#about header{*/
+/*background-image: url("../images/2.png");*/
+/*}*/
+/*#photos header{*/
+/*background-image: url("../images/3.png");*/
+/*}*/
+/*#live header{*/
+/*background-image: url("../images/4.png");*/
+/*}*/
+/*#contact header{*/
+/*background-image: url("../images/5.png");*/
+/*}*/
+
+#slideshow {
+    width: 150px;
+    height: 110px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#preview {
+    position: absolute;
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+}
+
+/*#frame{*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*z-index: 99;*/
+/*}*/
+
+.imgDiv>ul {
+    padding: 0;
+}
+
+.imgDiv>li {
+    float: left;
+    padding: 1em;
+    list-style: none;
+}
+
+.imgDiv>img {
+    display: block;
+    clear: both;
+}
+
+.placeholderImg img {
+    width: 400px;
+    height: 400px;
+}
