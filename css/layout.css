@@ -104,17 +104,17 @@ article img {
     /*z-index: 99;*/
 /*}*/
 
-.imgDiv>ul {
+.imgDiv ul {
     padding: 0;
 }
 
-.imgDiv>li {
+.imgDiv li {
     float: left;
     padding: 1em;
     list-style: none;
 }
 
-.imgDiv>img {
+.imgDiv img {
     display: block;
     clear: both;
 }
