@@ -162,6 +162,7 @@ function preparePlaceholder() {
 	div.setAttribute('class', 'placeholderImg');
 	var img = document.createElement('img');
 	img.setAttribute('id', 'img');
+	img.setAttribute('src', '../images/1.png');
 	img.setAttribute('alt', 'placeholder');
 	div.appendChild(img);
 	var p = document.createElement('p');

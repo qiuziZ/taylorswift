@@ -34,7 +34,6 @@ var server = require('http').createServer(function (req, res) {
     // var local = "http://localhost:8088";
     // var test_server="http://172.18.21.65:10080";
     fs.exists(realPath, function (exists) {
-        console.log(exists)
         if (!exists) {
             res.writeHead(404, {
                 'Conent-Type': 'text/plain'
@@ -49,7 +48,6 @@ var server = require('http').createServer(function (req, res) {
                     });
                 } else {
                     var ext = path.extname(realPath);
-                    console.log(ext);
                     ext = ext ? ext.slice(1) : 'unknown';
 
                     var contentType = mime[ext] || "text/plain";
